@@ -70,7 +70,6 @@ def analyze_numbers(numbers):
 
     return analysis
 
-
 def display_analysis(analysis):
     """
     Display the analysis in a formatted way.
