@@ -36,11 +36,9 @@ def count_words(filename):
     try:
         with open(filename, "r") as f:
             text = f.read()
-            words = text.split()
-            return len(words)
+            return len(text.split()) 
     except FileNotFoundError:
-        print(f"File {filename} not found!")
-        return 0
+        return 0  
 
 
 def count_lines(filename):
@@ -56,10 +54,8 @@ def count_lines(filename):
     # TODO: Open file and count lines
     try:
         with open(filename, "r") as f:
-            lines = f.readlines()
-            return len(lines)
+            return len(f.readlines())
     except FileNotFoundError:
-        print(f"File {filename} not found!")
         return 0
 
 
