@@ -96,7 +96,7 @@ def find_longest_word(filename):
     """
     # TODO: Find the longest word
     # Hint: You might need to remove punctuation
-    try: to 
+    try:
         with open(filename, "r") as f:
             text = f.read()
             # Supprimer la ponctuation
