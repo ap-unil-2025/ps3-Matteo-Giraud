@@ -6,7 +6,7 @@ Analyze a list of numbers provided by the user.
 def get_numbers_from_user():
     """
     Get numbers from user until they type 'done'.
-    Return a list of numbers.
+    Return a list of  numbers.
 
     Returns:
         list: List of numbers entered by user
